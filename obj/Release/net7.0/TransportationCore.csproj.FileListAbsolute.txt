@@ -1,0 +1,945 @@
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.Development.json
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.json
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.exe
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.deps.json
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.runtimeconfig.json
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.pdb
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Identity.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Humanizer.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.Framework.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DiaSymReader.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Options.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.NET.StringTools.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Mono.TextTemplating.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Common.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Configuration.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.DependencyResolver.Core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Frameworks.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.LibraryModel.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Packaging.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.ProjectModel.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Protocol.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Versioning.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.CodeDom.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.AttributedModel.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Convention.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Hosting.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Runtime.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.TypedParts.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Drawing.Common.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Memory.Data.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Permissions.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.AssemblyReference.cache
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfoInputs.cache
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfo.cs
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CoreCompileInputs.cache
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cs
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cache
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.TransportationCore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.build.TransportationCore.props
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.TransportationCore.props
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.TransportationCore.props
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.pack.json
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.build.json
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.development.json
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\scopedcss\bundle\TransportationCore.styles.css
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CopyComplete
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.dll
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\refint\TransportationCore.dll
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.pdb
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.genruntimeconfig.cache
+D:\IBS Proyects\TransportationCore\obj\Release\net7.0\ref\TransportationCore.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.EntityFramework.Core.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.NET.dll
+D:\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.Development.json
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.json
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.exe
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.deps.json
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.runtimeconfig.json
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.pdb
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.EntityFramework.Core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.NET.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Identity.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Humanizer.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.Framework.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DiaSymReader.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Options.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.NET.StringTools.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Mono.TextTemplating.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Common.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Configuration.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.DependencyResolver.Core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Frameworks.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.LibraryModel.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Packaging.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.ProjectModel.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Protocol.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Versioning.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.core.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.CodeDom.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.AttributedModel.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Convention.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Hosting.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Runtime.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.TypedParts.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Drawing.Common.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Memory.Data.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Permissions.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.AssemblyReference.cache
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfoInputs.cache
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfo.cs
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CoreCompileInputs.cache
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.TransportationCore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.build.TransportationCore.props
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.TransportationCore.props
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.TransportationCore.props
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.pack.json
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.build.json
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.development.json
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\scopedcss\bundle\TransportationCore.styles.css
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CopyComplete
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.dll
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\refint\TransportationCore.dll
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.pdb
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.genruntimeconfig.cache
+D:\Projects\IBS Proyects\TransportationCore\obj\Release\net7.0\ref\TransportationCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.Development.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\appsettings.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.exe
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.deps.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.runtimeconfig.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\TransportationCore.pdb
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.EntityFramework.Core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Audit.NET.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Azure.Identity.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Humanizer.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Build.Framework.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DiaSymReader.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Extensions.Options.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.NET.StringTools.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Mono.TextTemplating.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Common.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Configuration.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.DependencyResolver.Core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Frameworks.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.LibraryModel.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Packaging.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.ProjectModel.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Protocol.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\NuGet.Versioning.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.core.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.CodeDom.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.AttributedModel.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Convention.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Hosting.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.Runtime.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Composition.TypedParts.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Drawing.Common.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Memory.Data.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Security.Permissions.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.AssemblyReference.cache
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfoInputs.cache
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.AssemblyInfo.cs
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CoreCompileInputs.cache
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cs
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.MvcApplicationPartsAssemblyInfo.cache
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.TransportationCore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.build.TransportationCore.props
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.TransportationCore.props
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.TransportationCore.props
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.pack.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.build.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\staticwebassets.development.json
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\scopedcss\bundle\TransportationCore.styles.css
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.csproj.CopyComplete
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\refint\TransportationCore.dll
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.pdb
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\TransportationCore.genruntimeconfig.cache
+D:\DesJCH\DevelomentStedTraslados\Demo\IBS Proyects\IBS Proyects\TransportationCore\obj\Release\net7.0\ref\TransportationCore.dll
