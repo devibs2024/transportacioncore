@@ -33,7 +33,7 @@ namespace TransportationCore.Controllers
         private readonly ISoftDeleteService _softDeleteService;
 
         public CalculoNominaController(ApplicationDbContext context, IMapper mapper, ISoftDeleteService softDeleteService)
-        { 
+        {
             _context = context;
             this.maper = mapper;
             _context.UserEmail = "";
@@ -44,7 +44,7 @@ namespace TransportationCore.Controllers
         public async Task<ActionResult<CalculoNominaDto>> GetCalculoNomina(DateTime fechaIni, DateTime fechaEnd, long IdOperador, long IdTienda)
         {
             string parametro = "";
-            
+
             parametro += $" @IdOperador = {IdOperador}";
             parametro += $", @IdTienda = {IdTienda}";
 
@@ -53,45 +53,107 @@ namespace TransportationCore.Controllers
             if (resultado.Count == 0)
                 return BadRequest(new ErrorResponse("No existen calculos de nomina segun los criterios de busqueda"));
 
-            var dias = resultado.GroupBy(d => new { d.IdPlanificacion, d.IdOperador, d.IdCoordinador, d.Dia})
-                .Select(g => new CollectionDays
-                { 
+            var dias = resultado.GroupBy
+            (
+                d => new
+                {
+                    d.IdPlanificacion,
+                    d.IdOperador,
+                    d.IdCoordinador,
+                    d.Dia
+                }
+            )
+            .Select
+            (
+                g => new CollectionDays
+                {
                     IdPlanificacion = g.Key.IdPlanificacion,
                     IdOperador = g.Key.IdOperador,
                     IdCoordinador = g.Key.IdCoordinador,
                     NroDia = g.Key.Dia,
-                    
-                }).ToList();
-            
-            var PivotCalculoNomina = resultado.GroupBy(d => new { d.IdPlanificacion, d.IdOperador, d.NombreOperador, d.Salario, d.Banco, d.IdCoordinador, d.NombreCoordinador, d.IdTienda, d.NombreTienda, d.ZonaSted, d.Fecha, d.Dia, d.HoraInicio, d.HoraFin, d.Horas, d.SubTotal, d.Gasolina, d.HorasExtra, d.MinutosRetraso, d.DescuentoRetraso, d.PagoSMG, d.DescuentoSted, d.TotalPagar})
-                .Select(g => new PivotResult
-                { 
+                }
+            ).ToList();
+
+            var PivotCalculoNomina = resultado.GroupBy
+            (
+                d => new
+                {
+                    d.IdPlanificacion,
+
+                    d.FechaIni,
+                    d.FechaEnd,
+
+                    d.IdCoordinador,
+                    d.Coordinador,
+
+                    d.IdOperador,
+                    d.Operador,
+                    d.Salario,
+                    d.Banco,
+
+                    d.IdTienda,
+                    d.Tienda,
+                    d.ZonaSted,
+
+                    d.Fecha,
+                    d.Dia,
+
+                    d.HoraInicio,
+                    d.HoraFin,
+                    d.Horas,
+
+                    d.SubTotal,
+                    d.Gasolina,
+                    d.HorasExtra,
+                    d.MinutosRetardo,
+                    d.DescuentoRetardo,
+                    d.PagoSMG,
+                    d.DescuentoSted,
+                    d.TotalPagar
+                }
+            )
+            .Select
+            (
+                g => new PivotResult
+                {
                     IdPlanificacion = g.Key.IdPlanificacion,
+
+                    FechaIni = g.Key.FechaIni,
+                    FechaEnd = g.Key.FechaEnd,
+
+                    IdCoordinador = g.Key.IdCoordinador,
+                    Coordinador = g.Key.Coordinador,
+
                     IdOperador = g.Key.IdOperador,
-                    NombreOperador = g.Key.NombreOperador,
+                    Operador = g.Key.Operador,
                     Salario = g.Key.Salario,
                     Banco = g.Key.Banco,
-                    IdCoordinador = g.Key.IdCoordinador,
-                    NombreCoordinador = g.Key.NombreCoordinador,
-                    NombreTienda = g.Key.NombreTienda,
+
+                    IdTienda = g.Key.IdTienda,
+                    Tienda = g.Key.Tienda,
                     ZonaSted = g.Key.ZonaSted,
+
                     Fecha = g.Key.Fecha,
                     Dia = g.Key.Dia,
+
                     HoraInicio = g.Key.HoraInicio,
                     HoraFin = g.Key.HoraFin,
                     Horas = g.Key.Horas,
+
                     SubTotal = g.Key.SubTotal,
                     Gasolina = g.Key.Gasolina,
                     HorasExtra = g.Key.HorasExtra,
-                    MinutosRetraso = g.Key.MinutosRetraso,
-                    DescuentoRetraso = g.Key.DescuentoRetraso,
+                    MinutosRetardo = g.Key.MinutosRetardo,
+                    DescuentoRetardo = g.Key.DescuentoRetardo,
                     PagoSMG = g.Key.PagoSMG,
                     DescuentoSted = g.Key.DescuentoSted,
                     TotalPagar = g.Key.TotalPagar
-                }).ToList();
+
+                }
+            ).ToList();
 
             return Ok(PivotCalculoNomina);
-            
+
         }
 
         [HttpGet("{IdCoordinador}", Name = "GetCalculosNominaByIdCoordinador")]
@@ -144,6 +206,6 @@ namespace TransportationCore.Controllers
                                                   ).ToListAsync();
 
             return Ok(calculoNominaCoordinador);
-        }       
+        }
     }
 }
