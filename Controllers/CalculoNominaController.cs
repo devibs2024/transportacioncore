@@ -40,25 +40,13 @@ namespace TransportationCore.Controllers
             _softDeleteService = softDeleteService;
         }
 
-        [HttpGet("{FechaIni},{FechaEnd},{IdOperador},{IdTienda}", Name = "GetCalculoNomina")]
+        [HttpGet("{fechaIni},{fechaEnd},{IdOperador},{IdTienda}", Name = "GetCalculoNomina")]
         public async Task<ActionResult<CalculoNominaDto>> GetCalculoNomina(DateTime fechaIni, DateTime fechaEnd, long IdOperador, long IdTienda)
         {
-            string parametro = $" @IdOperador = {IdOperador}";
-
-            if (fechaIni == null)
-            {
-                parametro += $", @FechaIni = {fechaIni}";
-            }
-
-            if (fechaEnd == null)
-            {
-                parametro += $", @FechaEnd = {fechaEnd}";
-            }
-
-            if (IdTienda > 0)
-            {
-                parametro += $", @IdTienda = {IdTienda}";
-            }
+            string parametro = "";
+            
+            parametro += $" @IdOperador = {IdOperador}";
+            parametro += $", @IdTienda = {IdTienda}";
 
             var resultado = await _context.Set<CalculoNominaDto>().FromSqlRaw($"CalculoNominaProductividad" + parametro).ToListAsync();
 
