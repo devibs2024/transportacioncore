@@ -40,13 +40,19 @@ namespace TransportationCore.Controllers
             _softDeleteService = softDeleteService;
         }
 
-        [HttpGet("{fechaIni},{fechaEnd},{IdOperador},{IdTienda}", Name = "GetCalculoNomina")]
-        public async Task<ActionResult<CalculoNominaDto>> GetCalculoNomina(DateTime fechaIni, DateTime fechaEnd, long IdOperador, long IdTienda)
+        [HttpGet("{IdPlanificacion},{fechaIni},{fechaEnd},{IdCoordinador},{IdOperador},{IdTienda}", Name = "GetCalculoNomina")]
+        public async Task<ActionResult<CalculoNominaDto>> GetCalculoNomina(long IdPlanificacion, DateTime fechaIni, DateTime fechaEnd, long IdCoordinador, long IdOperador, long IdTienda)
         {
             string parametro = "";
 
-            parametro += $" @IdOperador = {IdOperador}";
-            parametro += $", @IdTienda = {IdTienda}";
+            parametro += $" @IdPlanificacion = {IdPlanificacion}";
+
+            if (fechaIni != null) parametro += $", @FechaIni = '{FechaBD(fechaIni)}'";
+            if (fechaEnd != null) parametro += $", @FechaEnd = '{FechaBD(fechaEnd)}'";
+
+            if (IdCoordinador > 0) parametro += $", @IdCoordinador = {IdCoordinador}";
+            if (IdOperador > 0) parametro += $", @IdOperador = {IdOperador}";
+            if (IdTienda > 0) parametro += $", @IdTienda = {IdTienda}";
 
             var resultado = await _context.Set<CalculoNominaDto>().FromSqlRaw($"CalculoNominaProductividad" + parametro).ToListAsync();
 
@@ -108,5 +114,35 @@ namespace TransportationCore.Controllers
 
             return Ok(calculoNominaCoordinador);
         }
+
+
+        private string FechaBD(DateTime pFecha)
+        {
+
+            string _Fecha = string.Empty;
+
+            int Año = pFecha.Year;
+            int Mes = pFecha.Month;
+            int Dia = pFecha.Day;
+
+            int Hora = pFecha.Hour;
+            int Minuto = pFecha.Minute;
+            int Segundo = pFecha.Second;
+
+            int Milisegundo = pFecha.Millisecond;
+
+            _Fecha =
+                    String.Format("{0:0000}", Año) + "-" +
+                    String.Format("{0:00}", Mes) + "-" +
+                    String.Format("{0:00}", Dia) + "T" +
+                    String.Format("{0:00}", Hora) + ":" +
+                    String.Format("{0:00}", Minuto) + ":" +
+                    String.Format("{0:00}", Segundo) + "." +
+                    String.Format("{0:000}", Milisegundo);
+
+            return _Fecha;
+
+        }
+
     }
 }
