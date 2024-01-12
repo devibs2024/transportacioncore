@@ -12,20 +12,28 @@
 
         public Int32 IdOperador { get; set; }
         public string Operador { get; set; } = string.Empty;
-        public decimal Salario { get; set; }
+
+        public Int32 IdSegmento { get; set; }
+        public Boolean Spot { get; set; }
+
+        public string Tarjeta { get; set; } = string.Empty;
+        public Int32 IdBanco { get; set; }
         public string Banco { get; set; } = string.Empty;
+
+        public decimal Salario { get; set; }
 
         public Int32 IdTienda { get; set; }
         public string Tienda { get; set; } = string.Empty;
+        public Int32 IdZonaSted { get; set; }
         public string ZonaSted { get; set; } = string.Empty;
 
         public DateTime Fecha { get; set; }
         public Int32 Dia { get; set; }
-        
+
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan HoraFin { get; set; }
         public Int32 Horas { get; set; }
-        
+
         public decimal SubTotal { get; set; }
         public decimal Gasolina { get; set; }
         public decimal HorasExtra { get; set; }
@@ -34,7 +42,7 @@
         public decimal PagoSMG { get; set; }
         public decimal DescuentoSted { get; set; }
         public decimal TotalPagar { get; set; }
-        
+
         public string Accion { get; set; }
     }
 }

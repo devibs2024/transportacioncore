@@ -41,8 +41,9 @@
     public class CollectionDays
     {
         public long IdPlanificacion { get; set; }
-        public Int32 IdOperador { get; set; }
         public Int32 IdCoordinador { get; set; }
+        public Int32 IdOperador { get; set; }        
+        public Int32 IdTienda { get; set; }
         public Int32 NroDia { get; set; }
         public string Accion { get; set; }
     }
