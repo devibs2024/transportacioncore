@@ -2,6 +2,11 @@
 {
     public class CalculoNominaDto
     {
+        public decimal IdComprobanteNomina { get; set; }   
+        public decimal IdProcesoNomina { get; set; }   
+        public decimal IdPlanificacion { get; set; }
+
+        public DateTime Fecha { get; set; }
         public DateTime FechaIni { get; set; }
         public DateTime FechaEnd { get; set; }
 
@@ -40,4 +45,6 @@
 
         public string Accion { get; set; }
     }
+
+
 }
