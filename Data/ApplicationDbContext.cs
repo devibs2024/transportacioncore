@@ -77,8 +77,11 @@ namespace TransportationCore.Data
         public virtual DbSet<ReporteConsumoGasolinaDto> ReporteConsumoGasolinaDtos { get; set; } = null!;
         public virtual DbSet<ReporteVechiculosExtraUtilizadosDto> ReporteVechiculosExtraUtilizadosDtos { get; set; } = null!;
       
+        public virtual DbSet<ProcesoNomina> ProcesoNomina{ get; set; } = null!;
         public virtual DbSet<ProcesoNominaDto> ProcesoNominaDto { get; set; } = null!;
         public virtual DbSet<ProcesoNominaPagoDto> ProcesoNominaPagoDto { get; set; } = null!;
+        
+        public virtual DbSet<ComprobanteNomina> ComprobanteNomina { get; set; } = null!;
         public virtual DbSet<ComprobanteNominaDto> ComprobanteNominaDto { get; set; } = null!;
 
         public DbSet<AuditLog> AuditLogs { get; set; }

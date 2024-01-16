@@ -89,14 +89,18 @@ namespace TransportationCore.Controllers
         }
 
         [HttpPut("[action]/{id}")]
-        public async Task<IActionResult> Pago(long id, ProcesoNominaPagoDto ProcesoNominaDto)
+        public async Task<IActionResult> Pago(long id, ProcesoNominaPagoDto ProcesoNominaPagoDto)
         {
-            if (id != ProcesoNominaDto.IdProcesoNomina)
+            if (id != ProcesoNominaPagoDto.IdProcesoNomina)
             {
                 return BadRequest();
             }
 
-            var ProcesoNomina = mapper.Map<ProcesoNomina>(ProcesoNominaDto);
+            var vProcesoNominaPagoDto = mapper.Map<ProcesoNominaPagoDto>(ProcesoNominaPagoDto);
+
+            var ProcesoNomina = await _context.ProcesoNomina.FirstOrDefaultAsync(x => x.IdProcesoNomina == id);
+            ProcesoNomina.Procesado = vProcesoNominaPagoDto.Procesado;
+
             _context.Entry(ProcesoNomina).State = EntityState.Modified;
 
             try
