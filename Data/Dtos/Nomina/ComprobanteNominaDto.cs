@@ -1,15 +1,22 @@
-﻿namespace TransportationCore.Data.Dtos.Nomina
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TransportationCore.Data.Dtos.Nomina
 {
-    public class CalculoNominaDto
+    public class ComprobanteNominaDto
     {
+        [Key]
         public decimal IdComprobanteNomina { get; set; }   
-        public decimal IdProcesoNomina { get; set; }   
+        
+        public decimal IdProcesoNomina { get; set; }
+
+        [Required(ErrorMessage = "El campo IdPlanificacion es obligatorio.")]
         public decimal IdPlanificacion { get; set; }
 
         public DateTime Fecha { get; set; }
         public DateTime FechaIni { get; set; }
         public DateTime FechaEnd { get; set; }
 
+        [Required(ErrorMessage = "El campo IdCoordinador es obligatorio.")]
         public Int32 IdCoordinador { get; set; }
         public string Coordinador { get; set; } = string.Empty;
 
@@ -43,7 +50,7 @@
         public decimal STED { get; set; }
         public decimal Pago { get; set; }
 
-        public string Accion { get; set; }
+        public string Accion { get; set; } = string.Empty;
     }
 
 

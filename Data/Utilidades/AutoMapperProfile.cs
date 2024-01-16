@@ -38,6 +38,7 @@ using TransportationCore.Data.Dtos.PlanificacionDetalle;
 using TransportationCore.Data.Dtos.PlanificacionEjecucion;
 using TransportationCore.Data.Dtos.ZonaSted;
 using TransportationCore.Data.Dtos.GerenteSubGerente;
+using TransportationCore.Data.Dtos.Nomina;
 
 namespace TransportationCore.Data.Utilidades
 {
@@ -161,6 +162,11 @@ namespace TransportationCore.Data.Utilidades
 
 
             CreateMap<GerenteSubGerente, GerenteSubGerenteDto>().ReverseMap();
+
+            CreateMap<ProcesoNomina, ProcesoNominaDto>().ReverseMap();
+            CreateMap<ProcesoNomina, ProcesoNominaPagoDto>().ReverseMap();
+            CreateMap<ComprobanteNomina, ComprobanteNominaDto>().ReverseMap();
+
         }
     }
 }

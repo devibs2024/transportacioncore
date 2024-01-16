@@ -76,9 +76,10 @@ namespace TransportationCore.Data
         public virtual DbSet<ProductividadConsultaDetalleDto> ProductividadConsultaDetalleDtos { get; set; } = null!;
         public virtual DbSet<ReporteConsumoGasolinaDto> ReporteConsumoGasolinaDtos { get; set; } = null!;
         public virtual DbSet<ReporteVechiculosExtraUtilizadosDto> ReporteVechiculosExtraUtilizadosDtos { get; set; } = null!;
-        public virtual DbSet<CalculoNominaDto> CalculoNominaDto { get; set; } = null!;
-
-
+      
+        public virtual DbSet<ProcesoNominaDto> ProcesoNominaDto { get; set; } = null!;
+        public virtual DbSet<ProcesoNominaPagoDto> ProcesoNominaPagoDto { get; set; } = null!;
+        public virtual DbSet<ComprobanteNominaDto> ComprobanteNominaDto { get; set; } = null!;
 
         public DbSet<AuditLog> AuditLogs { get; set; }
         #endregion
@@ -131,6 +132,10 @@ namespace TransportationCore.Data
             modelBuilder.ApplyConfiguration(new EjecucionPlanificacionConfiguration());
             modelBuilder.ApplyConfiguration(new TiendaCoordinadorConfiguration());
 
+            modelBuilder.ApplyConfiguration(new ProcesoNominaConfiguration());
+            modelBuilder.ApplyConfiguration(new ComprobanteNominaConfiguration());
+
+
             base.OnModelCreating(modelBuilder);
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())
@@ -148,7 +153,8 @@ namespace TransportationCore.Data
             modelBuilder.Entity<ProductividadConsultaDetalleDto>().HasNoKey().ToView("ProductividadConsultaDetalleDto");
             modelBuilder.Entity<ReporteVechiculosExtraUtilizadosDto>().HasNoKey().ToView("ReporteVehiculosExtraUtilizados");
             modelBuilder.Entity<ReporteConsumoGasolinaDto>().HasNoKey().ToView("ReporteImporteCombustibleAsignado");
-            modelBuilder.Entity<CalculoNominaDto>().HasNoKey().ToView("CalculoNominaProductividad");
+            modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("CalculoNominaProductividad");
+            modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("ConsultaNominaProductividad");
 
 
         }
