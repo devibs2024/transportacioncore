@@ -86,16 +86,16 @@ namespace TransportationCore.Controllers
 
                     foreach (var operador in tienda.GroupBy(p => new { p.IdDetallePlanificacion, p.IdOperador, p.NombreOperador, p.HoraInicio, p.HoraFin }))
                     {
-                        //DetalleOperadores detalleOperadores = new DetalleOperadores
-                        //{
-                        //    IdDetallePlanificacion = operador.Key.IdDetallePlanificacion,
-                        //    IdOperador = operador.Key.IdOperador,
-                        //    NombreOperador = operador.Key.NombreOperador,
-                        //    HoraInicio = operador.Key.HoraInicio,
-                        //    HoraFin = operador.Key.HoraFin
-                        //};
+                        DetalleOperadores detalleOperadores = new DetalleOperadores
+                        {
+                            IdDetallePlanificacion = operador.Key.IdDetallePlanificacion,
+                            IdOperador = operador.Key.IdOperador,
+                            NombreOperador = operador.Key.NombreOperador,
+                            HoraInicio = operador.Key.HoraInicio,
+                            HoraFin = operador.Key.HoraFin
+                        };
 
-                        //listaTiendas.Operadores.Add(detalleOperadores);
+                        listaTiendas.Operadores.Add(detalleOperadores);
                     }
 
                     reporteDetallePlanificacion.Tiendas.Add(listaTiendas);
