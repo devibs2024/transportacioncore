@@ -28,5 +28,8 @@ namespace TransportationCore.Data.Dtos.PlanificacionEjecucion
         public int TipoRegistro { get; set; }
         public string Justificacion { get; set; }
         public decimal MontoCombustible { get; set; }
+        public long IdVehiculo { get; set; }
+        public int IdTipoVehiculo { get; set; }
+        public long IdTarjeta { get; set; }
     }
 }

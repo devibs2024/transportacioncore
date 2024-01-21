@@ -38,6 +38,11 @@
         public string? NombreBanco { get; set; }
         public string? Accion { get;set; }
 
+        public long? IdVehiculo { get; set; }
+        public string? NombreVehiculo { get; set; } = string.Empty;
+        public int? IdTipoVehiculo { get; set; }
+        public long? IdTarjeta { get; set; }
+
     }
 
 }

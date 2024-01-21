@@ -12,6 +12,7 @@ using TransportationCore.Data.Dtos.Planificacion;
 using TransportationCore.Data.Utilidades;
 using TransportationCore.Enumeradores;
 using TransportationCore.Data.Interfaces;
+using TransportationCore.Data.Dtos.Tarjeta;
 
 namespace TransportationCore.Controllers
 {
@@ -53,6 +54,16 @@ namespace TransportationCore.Controllers
             }
 
             return Ok(planificacion);
+        }
+
+        // GET: api/Planificaciones/{id}
+        [HttpGet("{IdCoordinador},{IdPlanificacion}")]
+        public ActionResult GetPlanificacion(long IdCoordinador, decimal IdPlanificacion)
+        {
+
+            var planificaciones = _context.Planificaciones.Include(x => x.Coordinador).Where(x => x.IdCoordinador == IdCoordinador).ToList();
+
+            return Ok(planificaciones);
         }
 
         [HttpPost]

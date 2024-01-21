@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using TransportationCore.Data.Interfaces;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TransportationCore.Data.Models
 {
@@ -29,6 +30,9 @@ namespace TransportationCore.Data.Models
         public Tienda Tienda { get; set; }
 
         public decimal MontoCombustible { get; set; }
+        public long IdVehiculo { get; set; }
+        public int? IdTipoVehiculo { get; set; }
+        public long IdTarjeta { get; set; }
 
         public bool IsDeleted { get; set; }      
     }

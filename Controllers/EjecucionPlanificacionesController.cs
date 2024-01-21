@@ -12,6 +12,7 @@ using TransportationCore.Data.Interfaces;
 using TransportationCore.Data.Dtos.PlanificacionDetalle;
 using TransportationCore.Data.Utilidades;
 using TransportationCore.Enumeradores;
+using Microsoft.CodeAnalysis.VisualBasic.Syntax;
 
 namespace TransportationCore.Controllers
 {
@@ -60,37 +61,83 @@ namespace TransportationCore.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateEjecucionPlanificacion([FromBody] EjecucionPlanificacionCrearDto ejecucionPlanificacionDto)
         {
+
             var ejecucionPlanificacion = mapper.Map<EjecucionPlanificacion>(ejecucionPlanificacionDto);
+
             TimeSpan inicio = new TimeSpan(ejecucionPlanificacionDto.HoraE, ejecucionPlanificacionDto.MinutoE, 00);
             TimeSpan salida = new TimeSpan(ejecucionPlanificacionDto.HoraF, ejecucionPlanificacionDto.MinutoF, 00);
             ejecucionPlanificacion.TipoRegistro = (int)EnumTipoRegistro.RegistroManual;
             ejecucionPlanificacion.HoraInicio = inicio;
             ejecucionPlanificacion.HoraFin = salida;
-            ejecucionPlanificacion.MontoCombustible = await GetMontoDiarioCombustible(ejecucionPlanificacion.IdOperador);
 
-            if (await ValidarHorario(ejecucionPlanificacion.IdOperador, ejecucionPlanificacion.Fecha
-                                   , ejecucionPlanificacion.HoraInicio, ejecucionPlanificacion.HoraFin, 0))
-            {
-                return BadRequest(new ErrorResponse($"Conflicto de turnos para el empleado {ejecucionPlanificacion.IdOperador}, en la fecha {ejecucionPlanificacion.Fecha}. No se pueden asignar turnos que se crucen."));
-            }
-            else if (await ValidarDetallePlanificacion(ejecucionPlanificacion.IdPlanificacion, ejecucionPlanificacion.Fecha) == false)
-            {
+            //### VALIDACIÓN DE FECHAS DE PLANIFICACION
+
+            var planificacion = await _context.Planificaciones.AnyAsync(p => p.IdPlanificacion == ejecucionPlanificacion.IdPlanificacion && p.FechaDesde <= ejecucionPlanificacion.Fecha && p.FechaHasta >= ejecucionPlanificacion.Fecha);
+            if (planificacion == false)
                 return BadRequest(new ErrorResponse("La fecha del detalle no coincide con el rango de la planificacion."));
+
+            //### VALIDACIÓN DETALLE DE PLANIFICACION
+
+            if (ejecucionPlanificacion.IdDetallePlanificacion == 0)
+            {
+                var detalle = await _context.DetallesPlanificacion.FirstOrDefaultAsync(x => x.IdPlanificacion == ejecucionPlanificacion.IdPlanificacion && x.IdOperador == ejecucionPlanificacion.IdOperador && x.IdTienda == ejecucionPlanificacion.IdTienda && x.Fecha == ejecucionPlanificacion.Fecha);
+                if (detalle != null)
+                    ejecucionPlanificacion.IdDetallePlanificacion = detalle.IdDetallePlanificacion;
             }
+
+            if (ejecucionPlanificacion.IdDetallePlanificacion == 0)
+                return BadRequest(new ErrorResponse("No hay detalle de planificacion para este registro."));
+
+            //### VALIDACION DE REGISTRO EN EL DIA
+
+            var ejecucion = await _context.EjecucionesPlanificacion.AnyAsync(x => x.IdOperador == ejecucionPlanificacion.IdOperador && x.IdTienda == ejecucionPlanificacion.IdTienda && x.Fecha == ejecucionPlanificacion.Fecha);
+            if (ejecucion == true)
+                return BadRequest(new ErrorResponse("La fecha de ejecución ya ha sido registrada anteriormente."));
+
+            //### TARJETA DE GASOLNA VIGENTE 
+
+            var tarjeta = await _context.AsignacionTarjeta.FirstOrDefaultAsync(x => x.IdEmpleado == ejecucionPlanificacion.IdOperador && x.IsDeleted == false && x.TarjetaPrincipal == true);
+            if (tarjeta == null)
+            {
+                ejecucionPlanificacion.MontoCombustible = 0;
+                ejecucionPlanificacion.IdTarjeta = 0;
+            }
+            else
+            {
+                ejecucionPlanificacion.IdTarjeta = tarjeta.IdTarjeta;
+                ejecucionPlanificacion.MontoCombustible = tarjeta.MontoDiario;
+            }
+
+            //### VEHICULO UTILIZADO
+
+            if (ejecucionPlanificacion.IdVehiculo == 0)
+            {
+                var vehiculoasig = await _context.VehiculoOperadores.FirstOrDefaultAsync(x => x.IdEmpleado == ejecucionPlanificacion.IdOperador);
+                if (vehiculoasig != null)
+                {
+                    ejecucionPlanificacion.IdVehiculo = vehiculoasig.IdVehiculo;
+                }
+            }
+
+            if (ejecucionPlanificacion.IdVehiculo > 0)
+            {
+                var vehiculo = await _context.Vehiculos.FirstOrDefaultAsync(x => x.IdVehiculo == ejecucionPlanificacion.IdVehiculo);
+                if (vehiculo != null)
+                {
+                    ejecucionPlanificacion.IdTipoVehiculo = vehiculo.IdTipoVehiculo;
+                }
+            }
+
+            if (ejecucionPlanificacion.IdVehiculo == 0)
+                return BadRequest(new ErrorResponse("Se requiere el vehiculo utilizado."));
+
+            if (ejecucionPlanificacion.IdTipoVehiculo == 0)
+                return BadRequest(new ErrorResponse("Se requiere el tipo de vehiculo utilizado."));
 
             await _context.EjecucionesPlanificacion.AddAsync(ejecucionPlanificacion);
             _context.SaveChanges();
 
             return NoContent();
-        }
-
-        private async Task<decimal> GetMontoDiarioCombustible(long idOperador)
-        {
-            var tarjeta = await _context.AsignacionTarjeta.FirstOrDefaultAsync(x=>x.IdEmpleado == idOperador);
-
-            if (tarjeta == null) return 0;
-
-            return tarjeta.MontoDiario;
         }
 
         // PUT: api/DetallePlanificaciones/{id}
@@ -107,19 +154,70 @@ namespace TransportationCore.Controllers
             TimeSpan salida = new TimeSpan(ejecucionPlanificacionDto.HoraF, ejecucionPlanificacionDto.MinutoF, 00);
             ejecucionPlanificacion.HoraInicio = inicio;
             ejecucionPlanificacion.HoraFin = salida;
-            ejecucionPlanificacion.MontoCombustible = await GetMontoDiarioCombustible(ejecucionPlanificacion.IdOperador);
 
-            if (await ValidarHorario(ejecucionPlanificacion.IdOperador, ejecucionPlanificacion.Fecha
-                            , ejecucionPlanificacion.HoraInicio, ejecucionPlanificacion.HoraFin
-                            , ejecucionPlanificacion.IdEjecucionPlanificacion))
-            {
-                return BadRequest(new ErrorResponse("No es posible asignarle este horario al operador, favor validar."));
-            }
-            else if (await ValidarDetallePlanificacion(ejecucionPlanificacion.IdPlanificacion, ejecucionPlanificacion.Fecha) == false)
-            {
+            //### VALIDACIÓN DE FECHAS DE PLANIFICACION
+
+            var planificacion = await _context.Planificaciones.AnyAsync(p => p.IdPlanificacion == ejecucionPlanificacion.IdPlanificacion && p.FechaDesde <= ejecucionPlanificacion.Fecha && p.FechaHasta >= ejecucionPlanificacion.Fecha);
+            if (planificacion == false)
                 return BadRequest(new ErrorResponse("La fecha del detalle no coincide con el rango de la planificacion."));
+
+            //### VALIDACIÓN DETALLE DE PLANIFICACION
+
+            if (ejecucionPlanificacion.IdDetallePlanificacion == 0)
+            {
+                var detalle = await _context.DetallesPlanificacion.FirstOrDefaultAsync(x => x.IdPlanificacion == ejecucionPlanificacion.IdPlanificacion && x.IdOperador == ejecucionPlanificacion.IdOperador && x.IdTienda == ejecucionPlanificacion.IdTienda && x.Fecha == ejecucionPlanificacion.Fecha);
+                if (detalle != null)
+                    ejecucionPlanificacion.IdDetallePlanificacion = detalle.IdDetallePlanificacion;
             }
 
+            if (ejecucionPlanificacion.IdDetallePlanificacion == 0)
+                return BadRequest(new ErrorResponse("No hay detalle de planificacion para este registro."));
+
+            //### VALIDACION DE REGISTRO EN EL DIA
+
+            var ejecucion = await _context.EjecucionesPlanificacion.AnyAsync(x => x.IdOperador == ejecucionPlanificacion.IdOperador && x.IdTienda == ejecucionPlanificacion.IdTienda && x.Fecha == ejecucionPlanificacion.Fecha && x.IdEjecucionPlanificacion != ejecucionPlanificacion.IdEjecucionPlanificacion);
+            if (ejecucion == true)
+                return BadRequest(new ErrorResponse("La fecha de ejecución ya ha sido registrada anteriormente."));
+
+            //### TARJETA DE GASOLNA VIGENTE 
+
+            var tarjeta = await _context.AsignacionTarjeta.FirstOrDefaultAsync(x => x.IdEmpleado == ejecucionPlanificacion.IdOperador && x.IsDeleted == false && x.TarjetaPrincipal == true);
+            if (tarjeta == null)
+            {
+                ejecucionPlanificacion.MontoCombustible = 0;
+                ejecucionPlanificacion.IdTarjeta = 0;
+            }
+            else
+            {
+                ejecucionPlanificacion.IdTarjeta = tarjeta.IdTarjeta;
+                ejecucionPlanificacion.MontoCombustible = tarjeta.MontoDiario;
+            }
+
+            //### VEHICULO UTILIZADO
+
+            if (ejecucionPlanificacion.IdVehiculo == 0)
+            {
+                var vehiculoasig = await _context.VehiculoOperadores.FirstOrDefaultAsync(x => x.IdEmpleado == ejecucionPlanificacion.IdOperador);
+                if (vehiculoasig != null)
+                {
+                    ejecucionPlanificacion.IdVehiculo = vehiculoasig.IdVehiculo;
+                }
+            }
+
+            if (ejecucionPlanificacion.IdVehiculo > 0)
+            {
+                var vehiculo = await _context.Vehiculos.FirstOrDefaultAsync(x => x.IdVehiculo == ejecucionPlanificacion.IdVehiculo);
+                if (vehiculo != null)
+                {
+                    ejecucionPlanificacion.IdTipoVehiculo = vehiculo.IdTipoVehiculo;
+                }
+            }
+
+            if (ejecucionPlanificacion.IdVehiculo == 0)
+                return BadRequest(new ErrorResponse("Se requiere el vehiculo utilizado."));
+
+            if (ejecucionPlanificacion.IdTipoVehiculo == 0)
+                return BadRequest(new ErrorResponse("Se requiere el tipo de vehiculo utilizado."));
 
 
             _context.Entry(ejecucionPlanificacion).State = EntityState.Modified;
@@ -147,56 +245,6 @@ namespace TransportationCore.Controllers
         private bool DetallePlanificacionExists(decimal IdDetalle)
         {
             return _context.EjecucionesPlanificacion.Any(dp => dp.IdEjecucionPlanificacion == IdDetalle);
-        }
-
-        private async Task<bool> ValidarHorario(long IdOperador, DateTime Fecha, TimeSpan start, TimeSpan end, decimal IdDetalle)
-        {
-
-            if (IdDetalle == 0)
-            {
-                var detallesPlanificacion = await _context.EjecucionesPlanificacion
-                                                           .Where(dp => dp.IdOperador == IdOperador
-                                                                     && dp.Fecha == Fecha).ToListAsync();
-
-                foreach (var detalle in detallesPlanificacion)
-                {
-                    if ((start >= detalle.HoraInicio && start < detalle.HoraFin)
-                     || (end > detalle.HoraInicio && end <= detalle.HoraFin)
-                     || (start <= detalle.HoraInicio && end >= detalle.HoraFin))
-                    {
-                        return true;
-                    }
-                }
-            }
-            else
-            {
-                var detallesPlanificacion = await _context.EjecucionesPlanificacion
-                                                          .Where(dp => dp.IdOperador == IdOperador
-                                                                    && dp.Fecha == Fecha
-                                                                    && dp.IdEjecucionPlanificacion != IdDetalle).ToListAsync();
-
-                foreach (var detalle in detallesPlanificacion)
-                {
-                    if ((start >= detalle.HoraInicio && start < detalle.HoraFin)
-                     || (end > detalle.HoraInicio && end <= detalle.HoraFin)
-                     || (start <= detalle.HoraInicio && end >= detalle.HoraFin))
-                    {
-                        return true;
-                    }
-                }
-            }
-
-            return false;
-        }
-
-        private async Task<bool> ValidarDetallePlanificacion(decimal IdPlanificacion, DateTime Fecha)
-        {
-
-            var planificacion = await _context.Planificaciones.AnyAsync(p => p.IdPlanificacion == IdPlanificacion
-                                                                     && p.FechaDesde <= Fecha
-                                                                     && p.FechaHasta >= Fecha);
-
-            return planificacion;
         }
 
     }

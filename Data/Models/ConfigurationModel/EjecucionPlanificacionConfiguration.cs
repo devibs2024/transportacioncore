@@ -26,6 +26,10 @@ namespace TransportationCore.Data.Models.ConfigurationModel
             entity.Property(e => e.MontoCombustible).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.Justificacion).HasColumnName("Justificacion");
 
+            entity.Property(e => e.IdVehiculo).HasColumnName("IdVehiculo");
+            entity.Property(e => e.IdTipoVehiculo).HasColumnName("IdTipoVehiculo");
+            entity.Property(e => e.IdTarjeta).HasColumnName("IdTarjeta");
+
             entity.Property(e => e.IsDeleted).HasDefaultValue(false);
 
             entity.HasOne(d => d.Planificacion)
