@@ -39,9 +39,6 @@ namespace TransportationCore.Data.Dtos.Reportes
         public long IdCliente { get; set; }
         public string Cliente { get; set; }
 
-        public long IdFormato { get; set; }
-        public string Formato { get; set; }
-
         public long IdTienda { get; set; }
         public string Tienda { get; set; }
 
@@ -56,11 +53,15 @@ namespace TransportationCore.Data.Dtos.Reportes
 
         public string JsonUnidades { get; set; }
         public List<ReporteDias> ListDias { get; set; }
+
     }
 
     public class ReporteDias
     {
-        public int Ano { get; set; }
+        [Key]
+        public long Row { get; set; }
+
+        public int Anio { get; set; }
         public int Mes { get; set; }
         public int Dia { get; set; }
 

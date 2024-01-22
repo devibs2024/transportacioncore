@@ -64,6 +64,9 @@ namespace TransportationCore.Data.Models
         public decimal Salario { get; set; }
         public decimal SMG { get; set; }
 
+        public Int32 IdCliente { get; set; }
+        public string Cliente { get; set; } = string.Empty;
+
         public Int32 IdTienda { get; set; }
         public string Tienda { get; set; } = string.Empty;
         public Int32 IdZonaSted { get; set; }

@@ -5,8 +5,8 @@ namespace TransportationCore.Data.Dtos.Nomina
     public class ComprobanteNominaDto
     {
         [Key]
-        public decimal IdComprobanteNomina { get; set; }   
-        
+        public decimal IdComprobanteNomina { get; set; }
+
         public decimal IdProcesoNomina { get; set; }
 
         [Required(ErrorMessage = "El campo IdPlanificacion es obligatorio.")]
@@ -33,6 +33,9 @@ namespace TransportationCore.Data.Dtos.Nomina
 
         public decimal Salario { get; set; }
         public decimal SMG { get; set; }
+
+        public Int32 IdCliente { get; set; }
+        public string Cliente { get; set; } = string.Empty;
 
         public Int32 IdTienda { get; set; }
         public string Tienda { get; set; } = string.Empty;
