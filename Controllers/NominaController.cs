@@ -101,11 +101,28 @@ namespace TransportationCore.Controllers
             var ProcesoNomina = await _context.ProcesoNomina.FirstOrDefaultAsync(x => x.IdProcesoNomina == id);
             ProcesoNomina.Procesado = vProcesoNominaPagoDto.Procesado;
 
-            _context.Entry(ProcesoNomina).State = EntityState.Modified;
-
             try
             {
+
+                _context.Entry(ProcesoNomina).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
+
+                var planificacion = await _context.Planificaciones.FirstOrDefaultAsync(x => x.IdPlanificacion == ProcesoNomina.IdPlanificacion);
+
+                if (ProcesoNomina.Procesado == true)
+                {
+
+                    var pendientes = await _context.EjecucionesPlanificacion.AnyAsync(p => p.IdPlanificacion == ProcesoNomina.IdPlanificacion && p.IdComprobanteNomina == 0);
+                    if (pendientes == false)
+                        planificacion.EstatusPlanificacionId = 3;
+                    else
+                        planificacion.EstatusPlanificacionId = 2;
+
+                }
+
+                _context.Entry(planificacion).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+
             }
             catch (DbUpdateConcurrencyException)
             {

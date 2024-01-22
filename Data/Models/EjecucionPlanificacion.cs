@@ -34,6 +34,9 @@ namespace TransportationCore.Data.Models
         public int? IdTipoVehiculo { get; set; }
         public long IdTarjeta { get; set; }
 
+        public long? IdProcesoNomina { get; set; }
+        public long? IdComprobanteNomina { get; set; }
+
         public bool IsDeleted { get; set; }      
     }
 }
