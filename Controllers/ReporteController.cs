@@ -21,6 +21,7 @@ using TransportationCore.Data.Dtos.Nomina;
 using Microsoft.AspNetCore.Http.HttpResults;
 using TransportationCore.Data.Dtos.Vehiculo;
 using TransportationCore.Data.Dtos.Reportes;
+using Newtonsoft.Json;
 
 namespace TransportationCore.Controllers
 {
@@ -79,6 +80,9 @@ namespace TransportationCore.Controllers
             if (IdTipoVehiculo > 0) parametro += $", @IdTipoVehiculo = {IdTipoVehiculo}";
 
             var resultado = await _context.Set<ReporteVehiculosExtraDto>().FromSqlRaw($"ReporteVehiculosExtra" + parametro).ToListAsync();
+
+            foreach (var row in resultado)
+                row.ListDias = JsonConvert.DeserializeObject<List<ReporteDias>>(row.JsonUnidades);
 
             if (resultado.Count == 0)
                 return BadRequest(new ErrorResponse("No existen calculos de nomina segun los criterios de busqueda"));
