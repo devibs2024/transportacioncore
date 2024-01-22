@@ -39,6 +39,7 @@ using TransportationCore.Data.Dtos.PlanificacionEjecucion;
 using TransportationCore.Data.Dtos.ZonaSted;
 using TransportationCore.Data.Dtos.GerenteSubGerente;
 using TransportationCore.Data.Dtos.Nomina;
+using TransportationCore.Data.Dtos.Reportes;
 
 namespace TransportationCore.Data.Utilidades
 {

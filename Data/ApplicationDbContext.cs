@@ -84,6 +84,9 @@ namespace TransportationCore.Data
         public virtual DbSet<ComprobanteNomina> ComprobanteNomina { get; set; } = null!;
         public virtual DbSet<ComprobanteNominaDto> ComprobanteNominaDto { get; set; } = null!;
 
+        public virtual DbSet<ReporteGasolinaDto> ReportGasolinaDto { get; set; } = null!;
+public virtual DbSet<ReporteVehiculosExtraDto> ReporteVehiculosExtraDto { get; set; } = null!;
+
         public DbSet<AuditLog> AuditLogs { get; set; }
         #endregion
 
@@ -159,6 +162,8 @@ namespace TransportationCore.Data
             modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("CalculoNominaProductividad");
             modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("ConsultaNominaProductividad");
 
+            modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("ReporteGasolina");
+            modelBuilder.Entity<ComprobanteNominaDto>().HasNoKey().ToView("ReporteVehiculosExtra");
 
         }
 
