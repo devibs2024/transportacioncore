@@ -91,6 +91,28 @@ namespace TransportationCore.Controllers
 
         }
 
+        [HttpGet("[action]/{fechaIni},{fechaEnd},{IdCoordinador},{IdTienda},{IdTipoVehiculo}", Name = "ComparativoPagos")]
+        public async Task<ActionResult<ReporteComparativoPagosDto>> ComparativoPagos(DateTime fechaIni, DateTime fechaEnd, long IdCoordinador, long IdTienda, long IdTipoVehiculo)
+        {
+            string parametro = "";
+
+            parametro += $" @IdCoordinador = {IdCoordinador}";
+
+            if (fechaIni != null) parametro += $", @FechaIni = '{FechaBD(fechaIni)}'";
+            if (fechaEnd != null) parametro += $", @FechaEnd = '{FechaBD(fechaEnd)}'";
+
+            if (IdTienda > 0) parametro += $", @IdTienda = {IdTienda}";
+            if (IdTipoVehiculo > 0) parametro += $", @IdTipoVehiculo = {IdTipoVehiculo}";
+
+            var resultado = await _context.Set<ReporteComparativoPagosDto>().FromSqlRaw($"ReporteComparativoPagos" + parametro).ToListAsync();
+
+            if (resultado.Count == 0)
+                return BadRequest(new ErrorResponse("No existen calculos de nomina segun los criterios de busqueda"));
+
+            return Ok(resultado);
+
+        }
+
         private string FechaBD(DateTime pFecha)
         {
 
