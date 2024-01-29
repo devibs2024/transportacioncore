@@ -143,10 +143,10 @@ namespace TransportationCore.Controllers
         }
 
         // DELETE: api/DetallePlanificaciones/{id}
-        [HttpDelete("{IdDetalle}")]
-        public async Task<IActionResult> DeleteDetallePlanificacion(decimal IdDetalle)
+        [HttpDelete("{IdPlanificacion},{IdDetalle}")]
+        public async Task<IActionResult> DeleteDetallePlanificacion(decimal IdPlanificacion, decimal IdDetalle)
         {
-            await softDeleteService.SoftDelete<DetallePlanificacion>(IdDetalle);
+            await softDeleteService.SoftDelete<DetallePlanificacion>(IdPlanificacion, IdDetalle);
             return Ok(new ErrorResponse("El registro se elimino correctamente."));
         }
 
