@@ -43,6 +43,8 @@ namespace TransportationCore.Data.Dtos.Nomina
         public string ZonaSted { get; set; } = string.Empty;
 
         public Int32 Dias { get; set; }
+        public Int32 Descansos { get; set; }
+        public Int32 Faltas { get; set; }
 
         public decimal SubTotal1 { get; set; }
         public decimal Descuento { get; set; }
