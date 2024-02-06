@@ -256,27 +256,27 @@ namespace TransportationCore.Middleware
                 return;
             }
 
-            DateTime currentDate = new DateTime(2023, 12, 31, 12, 00, 00);
-            const double mxNumber = 137412;
+            //DateTime currentDate = new DateTime(2023, 12, 31, 12, 00, 00);
+            //const double mxNumber = 137412;
 
-            if (mxNumber == mxValidate) return;
+            //if (mxNumber == mxValidate) return;
 
-            if (mxNumber != mxValidate || valideApp != false)
-            {
-                if (currentDate.AddDays(60) <= DateTime.Now)
-                {
-                    _hasError = true;
-                    var errors = new List<string> { "Se ha producido un error en el sistema. Error code 412" };
-                    await context.Response.WriteAsync(JsonConvert.SerializeObject(new ErrorResponse()
-                    {
-                        StatusCode = (int)HttpStatusCode.NotAcceptable,
-                        Message = "Se ha producido un error en el sistema.",
-                        Errors = errors
-                    }));
+            //if (mxNumber != mxValidate || valideApp != false)
+            //{
+            //    if (currentDate.AddDays(60) <= DateTime.Now)
+            //    {
+            //        _hasError = true;
+            //        var errors = new List<string> { "Se ha producido un error en el sistema. Error code 412" };
+            //        await context.Response.WriteAsync(JsonConvert.SerializeObject(new ErrorResponse()
+            //        {
+            //            StatusCode = (int)HttpStatusCode.NotAcceptable,
+            //            Message = "Se ha producido un error en el sistema.",
+            //            Errors = errors
+            //        }));
 
-                    return;
-                }
-            }
+            //        return;
+            //    }
+            //}
 
             _hasError = false;
         }
