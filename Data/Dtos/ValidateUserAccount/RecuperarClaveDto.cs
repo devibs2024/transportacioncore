@@ -19,4 +19,15 @@ namespace TransportationCore.Data.Dtos.ValidateUserAccount
 
 
     }
+
+    public class RegistroUserAccountDto
+    {
+
+        [Required]
+        //[EmailAddress]
+        [Display(Name = "Correo electrónico")]
+        public string Email { get; set; }
+
+    }
+
 }

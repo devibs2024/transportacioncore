@@ -21,6 +21,7 @@ using System.Threading.Tasks;
 using TransportationCore.Data.Dtos.ValidateUserAccount;
 using NuGet.Common;
 using Newtonsoft.Json.Linq;
+using Microsoft.CodeAnalysis.Operations;
 
 namespace TransportationCore.Controllers
 {
@@ -48,7 +49,6 @@ namespace TransportationCore.Controllers
         }
 
 
-
         [HttpPost("createUser")]
         public async Task<ActionResult<AuthenticationResponseDto>> CreateUser(UserCredencialsCrearDto userCredencialsDto)
         {
@@ -66,7 +66,6 @@ namespace TransportationCore.Controllers
             }
         }
 
-
         [HttpPost("login")]
         public async Task<ActionResult<AuthenticationResponseDto>> Login(UserCredencialsDto userCredentials)
         {
@@ -83,7 +82,6 @@ namespace TransportationCore.Controllers
             }
         }
 
-
         [HttpGet("RefreshToken")]
         ////[Authorize(Policy = "UsuarioPolicy", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public ActionResult<AuthenticationResponseDto> RefreshToken()
@@ -94,7 +92,6 @@ namespace TransportationCore.Controllers
             var credencialUser = new UserCredencialsDto { Email = email };
             return CreateToken(credencialUser);
         }
-
 
         //-------------------------------
         [HttpPost("RegistrarUsuario")]
@@ -167,8 +164,6 @@ namespace TransportationCore.Controllers
             return Ok($"Un código de verificación le fue enviado a la dirección de correo: {correoEnviadoParcial}");
         }
 
-
-
         [HttpPost("ValidarCodigo")]
         public async Task<ActionResult> ValidarCodigo(CodigoValidateUserAccountDto codigoValidateUserAccountDto)
         {
@@ -192,7 +187,6 @@ namespace TransportationCore.Controllers
             else return Ok("Código Validado.");
 
         }
-
 
         //-------------------------------
         [HttpPost("RecuperarClave")]
@@ -258,8 +252,6 @@ namespace TransportationCore.Controllers
             return Ok($"Un código de verificación le fue enviado a la dirección de correo: {correoEnviadoParcial} para la recuperación de su contraseña.");
         }
 
-
-
         [HttpPost("NuevaClaveRecuperarClave")]
         public async Task<ActionResult> NuevaClaveRecuperarClave(NuevaClaveRecuperarClaveDto NuevaClaveRecuperarClaveDto)
         {
@@ -311,6 +303,90 @@ namespace TransportationCore.Controllers
             }
         }
 
+        [HttpPost("UserEmpleado")]
+        public async Task<ActionResult> UserEmpleado(RegistroUserAccountDto registroUsserAccount)
+        {
+
+            //### VALIDA QUE EXISTA EN LA TABLA EMPLEADOS
+            var buscarEmpleado = await _context.Empleados.FirstOrDefaultAsync(x => x.Correo == registroUsserAccount.Email && x.IsDeleted == false);
+            if (buscarEmpleado != null)
+            {
+
+                //### USER ACCOUNT REGISTRO, SI NO EXISTE
+                var _UserManager = await userManager.FindByEmailAsync(registroUsserAccount.Email);
+                if (_UserManager == null)
+                {
+
+                    //## DATOS USER ACCOUNT
+
+                    String _Nombre = buscarEmpleado.Nombres + " " + buscarEmpleado.ApellidoPaterno + " " + buscarEmpleado.ApellidoMaterno;
+                    String _Password = GeneraPwd();
+
+                    var _IdentityUser = new IdentityUser { UserName = registroUsserAccount.Email,  Email = registroUsserAccount.Email };
+                    var _CrearIdentityUser = await userManager.CreateAsync(_IdentityUser, _Password);
+
+                    if (_CrearIdentityUser.Succeeded)
+                    {
+
+                        //SI AGREGO USER ACCOUNT, ENVIA CORREO CON PASSWORD
+
+                        #region Correo
+
+                        try
+                        {
+                            string? body1 = configuration.GetSection("SMTP_Settings:bodyRegistroUsuario").Value;
+                            int smtport1;
+                            int.TryParse(configuration.GetSection("SMTP_Settings:smtpPort").Value, out smtport1);
+
+                            string toEmail = "mocbana@gmail.com"; //Email;
+                            string? subject = configuration.GetSection("SMTP_Settings:subjectRegistroUsuario").Value;
+                            string? body = string.Format(body1, _Password);
+
+                            string? smtpServer = configuration.GetSection("SMTP_Settings:smtpServer").Value;
+                            int smtpPort = smtport1;
+                            string? smtpUsername = configuration.GetSection("SMTP_Settings:smtpUsername").Value;
+                            string? smtpPassword = configuration.GetSection("SMTP_Settings:smtpPassword").Value;
+
+                            using var mailMessage = new MailMessage
+                            {
+                                From = new MailAddress(smtpUsername),
+                                Subject = subject,
+                                Body = body,
+                                IsBodyHtml = true
+                            };
+                            mailMessage.To.Add(new MailAddress(toEmail));
+
+                            using var smtpClient = new SmtpClient(smtpServer, smtpPort)
+                            {
+                                Credentials = new NetworkCredential(smtpUsername, smtpPassword),
+                                EnableSsl = true
+                            };
+
+                            await smtpClient.SendMailAsync(mailMessage);
+                        }
+                        catch
+                        {
+                        }
+
+                        #endregion
+
+                    }
+
+                }
+                else
+                {
+                    //### NO EXISTE CORREO EN TABLA DE EMPLEADOS
+                }
+
+            }
+            else
+            {
+                return BadRequest("El usuario no existe");
+            }
+
+            return Ok();
+        }
+
         private AuthenticationResponseDto CreateToken(UserCredencialsDto userCredencials)
         {
             var IdEmpleado = _context.Empleados.Where(e => e.Correo == userCredencials.Email).FirstOrDefault().IdEmpleado;
@@ -319,7 +395,7 @@ namespace TransportationCore.Controllers
                 new Claim("UserEmail", userCredencials.Email),
                 new Claim("Id", IdEmpleado.ToString())
             };
-           
+
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("Jwt:Key").Value));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
@@ -342,5 +418,47 @@ namespace TransportationCore.Controllers
 
             return responseDto;
         }
+
+        private string GeneraPwd()
+        {
+            var mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var minusculas = "abcdefghijklmnopqrstuvwxyz";
+            var numeros = "0123456789";
+            var caracteres = "+-#$@!?";
+
+            var Charsarr = new char[8];
+
+            var random = new Random();
+
+            Charsarr[0] = mayusculas[random.Next(mayusculas.Length)];
+
+            for (int i = 1; i < Charsarr.Length - 3; i++)
+            {
+                switch (random.Next(1, 4))
+                {
+                    case 1:
+                        Charsarr[i] = mayusculas[random.Next(mayusculas.Length)];
+                        break;
+                    case 2:
+                        Charsarr[i] = minusculas[random.Next(minusculas.Length)];
+                        break;
+                    case 3:
+                        Charsarr[i] = numeros[random.Next(numeros.Length)];
+                        break;
+                    default:
+                        Charsarr[i] = minusculas[random.Next(minusculas.Length)];
+                        break;
+                }
+
+            }
+            Charsarr[Charsarr.Length - 3] = caracteres[random.Next(caracteres.Length)];
+            Charsarr[Charsarr.Length - 2] = minusculas[random.Next(minusculas.Length)];
+            Charsarr[Charsarr.Length - 1] = numeros[random.Next(numeros.Length)];
+
+            var resultString = new String(Charsarr);
+
+            return resultString;
+        }
+
     }
 }
