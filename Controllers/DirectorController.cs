@@ -86,7 +86,7 @@ namespace TransportationCore.Controllers
                 return BadRequest();
             }
 
-            operadorDto.NumeroContrato = 0;
+            operadorDto.NumeroContrato = string.Empty;
 
             var operador = mapper.Map<Empleado>(operadorDto);
             operador.IdTipoEmpleado = tipoEmpleado;
@@ -127,7 +127,7 @@ namespace TransportationCore.Controllers
                 return BadRequest(new ErrorResponse("El registro no existe"));
             }
 
-            operadorDto.NumeroContrato = 0;
+            operadorDto.NumeroContrato = string.Empty;
 
             var operador = mapper.Map<Empleado>(operadorDto);
             operador.IdTipoEmpleado = tipoEmpleado;
@@ -157,7 +157,7 @@ namespace TransportationCore.Controllers
             return (_context.Empleados?.Any(e => e.IdEmpleado == id)).GetValueOrDefault();
         }
 
-        private bool ValidarNumeroContrato(long IdEmleado, decimal nroContrato)
+        private bool ValidarNumeroContrato(long IdEmleado, string nroContrato)
         {
             return (_context.Empleados?.Any(e => e.NumeroContrato == nroContrato && e.IdEmpleado != IdEmleado)).GetValueOrDefault();
         }

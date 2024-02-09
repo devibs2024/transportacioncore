@@ -7,8 +7,8 @@ namespace TransportationCore.Data.Dtos.Operador
         [Required(ErrorMessage = "El campo IdEmpleado es obligatorio.")]
         public long IdEmpleado { get; set; }
 
-        [Required(ErrorMessage = "El campo NumeroContrato es obligatorio.")]
-        public decimal NumeroContrato { get; set; }
+        //[Required(ErrorMessage = "El campo NumeroContrato es obligatorio.")]
+        public string NumeroContrato { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "El campo Nombres es obligatorio.")]
         public string Nombres { get; set; } = null!;

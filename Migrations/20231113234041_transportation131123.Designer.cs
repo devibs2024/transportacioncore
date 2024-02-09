@@ -1304,8 +1304,8 @@ namespace TransportationCore.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<decimal>("NumeroContrato")
-                        .HasColumnType("numeric(18, 0)");
+                    b.Property<string>("NumeroContrato")
+                        .HasColumnType("varchar(100)");
 
                     b.Property<decimal?>("SMG")
                         .HasColumnType("decimal(18,2)");

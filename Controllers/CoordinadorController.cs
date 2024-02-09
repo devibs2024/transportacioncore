@@ -87,7 +87,7 @@ namespace TransportationCore.Controllers
                 return BadRequest();
             }
 
-            operadorDto.NumeroContrato = 0;
+            operadorDto.NumeroContrato = string.Empty;
 
             //if (ValidarNumeroContrato(id, operadorDto.NumeroContrato))
             //    return BadRequest(new ErrorResponse("El numero de contrato, ya existe favor validar."));
@@ -131,7 +131,7 @@ namespace TransportationCore.Controllers
                 return BadRequest(new ErrorResponse("Entity set 'ApplicationDbContext.Empleados'  is null."));
             }
 
-            operadorDto.NumeroContrato = 0;
+            operadorDto.NumeroContrato = string.Empty;
             //if (ValidarNumeroContrato(0, operadorDto.NumeroContrato))
             //    return BadRequest(new ErrorResponse("El numero de contrato, ya existe favor validar."));
 
@@ -163,7 +163,7 @@ namespace TransportationCore.Controllers
             return (_context.Empleados?.Any(e => e.IdEmpleado == id)).GetValueOrDefault();
         }
 
-        private bool ValidarNumeroContrato(long IdEmleado, decimal nroContrato)
+        private bool ValidarNumeroContrato(long IdEmleado, string nroContrato)
         {
             return (_context.Empleados?.Any(e => e.NumeroContrato == nroContrato && e.IdEmpleado != IdEmleado)).GetValueOrDefault();
         }

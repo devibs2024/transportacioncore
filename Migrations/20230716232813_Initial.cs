@@ -485,7 +485,7 @@ namespace TransportationCore.Migrations
                 {
                     IdEmpleado = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NumeroContrato = table.Column<decimal>(type: "numeric(18,0)", nullable: false),
+                    NumeroContrato = table.Column<string>(type: "varchar(100)", nullable: true),
                     Nombres = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
                     ApellidoMaterno = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     ApellidoPaterno = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),

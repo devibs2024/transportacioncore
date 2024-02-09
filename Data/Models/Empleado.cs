@@ -20,7 +20,7 @@ namespace TransportationCore.Data.Models
 
 
         public long IdEmpleado { get; set; }
-        public decimal NumeroContrato { get; set; }
+        public string NumeroContrato { get; set; }
         public string Nombres { get; set; } = null!;
         public string? ApellidoMaterno { get; set; }
         public string? ApellidoPaterno { get; set; }

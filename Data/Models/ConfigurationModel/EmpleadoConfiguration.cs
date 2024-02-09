@@ -19,7 +19,7 @@ namespace TransportationCore.Data.Models.ConfigurationModel
 
             entity.Property(e => e.IsDeleted).HasDefaultValue(false);
 
-            entity.Property(e => e.NumeroContrato).HasColumnType("numeric(18, 0)");
+            //entity.Property(e => e.NumeroContrato).HasColumnType("numeric(18, 0)");
             entity.Property(e => e.Salario).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.Telefono).HasMaxLength(20);
         }

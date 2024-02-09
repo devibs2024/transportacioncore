@@ -151,7 +151,7 @@ namespace TransportationCore.Controllers
             return (_context.Empleados?.Any(e => e.IdEmpleado == id)).GetValueOrDefault();
         }
 
-        private bool ValidarNumeroContrato(long IdEmleado, decimal nroContrato)
+        private bool ValidarNumeroContrato(long IdEmleado, string nroContrato)
         {
             return (_context.Empleados?.Any(e => e.NumeroContrato == nroContrato && e.IdEmpleado != IdEmleado)).GetValueOrDefault();
         }

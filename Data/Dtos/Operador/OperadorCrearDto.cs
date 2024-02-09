@@ -4,8 +4,8 @@ namespace TransportationCore.Data.Dtos.Operador
 {
     public class OperadorCrearDto
     {
-        [Required(ErrorMessage = "El número de contrato es requerido.")]
-        public decimal NumeroContrato { get; set; }
+        //[Required(ErrorMessage = "El número de contrato es requerido.")]
+        public string NumeroContrato { get; set; }
 
         [Required(ErrorMessage = "Los nombres son requeridos.")]
         public string Nombres { get; set; } = null!;

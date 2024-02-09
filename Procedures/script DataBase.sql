@@ -201,7 +201,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[tbl_Empleados](
 	[IdEmpleado] [bigint] IDENTITY(1,1) NOT NULL,
-	[NumeroContrato] [numeric](18, 0) NOT NULL,
+	[NumeroContrato] [varchar](100) NULL,
 	[Nombres] [nvarchar](30) NOT NULL,
 	[ApellidoMaterno] [nvarchar](20) NULL,
 	[ApellidoPaterno] [nvarchar](20) NULL,
